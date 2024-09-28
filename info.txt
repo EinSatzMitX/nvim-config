@@ -1,0 +1,32 @@
+keybinds{
+
+  Clipboard{
+    Copy{
+
+
+Copying in Visual Mode:
+
+Select the text you want to copy in visual mode by pressing v (character-wise), V (line-wise), or Ctrl-v (block-wise).
+Press "+y to copy the selected text to the system clipboard.
+Copying in Normal Mode:
+
+To copy the current line, press "+yy.
+To copy a specific range of lines, use :<start>,<end>y +. For example, :10,20y + will copy lines 10 to 20 to the system clipboard.
+
+    Paste{
+
+
+Pasting in Normal Mode:
+
+Position the cursor where you want to paste the text.
+Press "+p to paste the text from the system clipboard after the cursor.
+Press "+P to paste the text before the cursor.
+Pasting in Insert Mode:
+
+Press Ctrl-r followed by + to paste the text from the system clipboard at the current cursor position.
+
+
+    }
+  }
+
+}
